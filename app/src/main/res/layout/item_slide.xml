@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginBottom="1dp">
+
+    <com.kingyzll.customView.SlideDelete
+        android:id="@+id/slide_delete_view"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+
+        <ImageView
+            android:id="@+id/file_icon"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/file_list_type"
+            android:src="@drawable/unknow" />
+
+        <TextView
+            android:id="@+id/file_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textSize="24sp" />
+
+        <TextView
+
+            android:id="@+id/file_delete"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="#f00"
+            android:gravity="center"
+            android:text="@string/delete"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+
+    </com.kingyzll.customView.SlideDelete>
+
+</android.support.v7.widget.CardView>

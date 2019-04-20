@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StudentInformationActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/stud_infor_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:title="@string/nav_information" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/UpdataStudentInformationTextView"
+                        android:text="@string/i_name" />
+
+                    <TextView
+                        android:id="@+id/i_name"
+                        style="@style/StudentInformationTextView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/UpdataStudentInformationTextView"
+                        android:text="@string/i_num" />
+
+                    <TextView
+                        android:id="@+id/i_num"
+                        style="@style/StudentInformationTextView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/UpdataStudentInformationTextView"
+                        android:text="@string/i_intime" />
+
+                    <TextView
+                        android:id="@+id/i_intime"
+                        style="@style/StudentInformationTextView" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/UpdataStudentInformationTextView"
+                        android:text="@string/i_study" />
+
+                    <TextView
+                        android:id="@+id/i_study"
+                        style="@style/StudentInformationTextView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/UpdataStudentInformationTextView"
+                        android:text="@string/i_contactaddr" />
+
+                    <TextView
+                        android:id="@+id/i_contactaddr"
+                        style="@style/StudentInformationTextView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/UpdataStudentInformationTextView"
+                        android:text="@string/i_schoolpost" />
+
+                    <TextView
+                        android:id="@+id/i_schoolpost"
+                        style="@style/StudentInformationTextView" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/foldInformation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/UpdataStudentInformationTextView"
+                        android:text="@string/i_sex" />
+
+                    <TextView
+                        android:id="@+id/i_sex"
+                        style="@style/StudentInformationTextView" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/UpdataStudentInformationTextView"
+                        android:text="@string/i_symbol" />
+
+                    <TextView
+                        android:id="@+id/i_symbol"
+                        style="@style/StudentInformationTextView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/UpdataStudentInformationTextView"
+                        android:text="@string/i_health" />
+
+                    <TextView
+                        android:id="@+id/i_health"
+                        style="@style/StudentInformationTextView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/UpdataStudentInformationTextView"
+                        android:text="@string/i_in" />
+
+                    <TextView
+                        android:id="@+id/i_in"
+                        style="@style/StudentInformationTextView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/UpdataStudentInformationTextView"
+                        android:text="@string/i_birthplace" />
+
+                    <TextView
+                        android:id="@+id/i_birthplace"
+                        style="@style/StudentInformationTextView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/UpdataStudentInformationTextView"
+                        android:text="@string/i_homeaddr" />
+
+                    <TextView
+                        android:id="@+id/i_homeaddr"
+                        style="@style/StudentInformationTextView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/UpdataStudentInformationTextView"
+                        android:text="@string/i_postcode" />
+
+                    <TextView
+                        android:id="@+id/i_postcode"
+                        style="@style/StudentInformationTextView" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/look_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:clickable="true"
+                    android:layout_marginEnd="5dp"
+                    android:gravity="center"
+                    android:text="@string/more_information"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/fold_img"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/downarrow" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/student_information_fab"
+            style="@style/FloatingActionButton"
+            android:src="@drawable/edit" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>

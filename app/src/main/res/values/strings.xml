@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">学生事务</string>
+    <string name="nothing">无</string>
+    <string name="total_score">获得学分:</string>
+
+
+    <!--navigtation-->
+    <string name="nav_information">学籍信息</string>
+    <string name="nav_files">文件管理</string>
+    <string name="nav_notification">消息通知</string>
+    <string name="nav_other">其他</string>
+    <string name="nav_update">修改密码</string>
+    <string name="nav_quit">退出登录</string>
+
+
+    <!-- 院系 -->
+    <string name="dep_brief">院系简介</string>
+    <string name="dep_office">办公室</string>
+    <string name="dep_address">地址</string>
+    <string name="dep_contact">联系</string>
+    <string name="dep_email">邮箱</string>
+
+    <!--文件管理-->
+    <string name="downloaded">已下载</string>
+    <string name="download_list">相关下载</string>
+
+    <!--文件下载-->
+    <string name="publisher">发布:</string>
+    <string name="publish_time">时间:</string>
+
+    <!--滑动删除-->
+    <string name="delete">删除</string>
+    <string name="file_list_type">类型图片</string>
+
+    <!--首页-->
+    <string name="homeTile">首页</string>
+
+    <!--学籍信息-->
+    <string name="i_num">学号:</string>
+    <string name="i_name">姓名:</string>
+    <string name="i_sex">性别:</string>
+    <string name="i_symbol">政治面貌:</string>
+    <string name="i_in">身份证号码:</string>
+    <string name="i_intime">入学时间:</string>
+    <string name="i_birthplace">生源地区:</string>
+    <string name="i_homeaddr">家庭地址:</string>
+    <string name="i_postcode">邮政编码:</string>
+    <string name="i_health">健康状态:</string>
+    <string name="i_study">修业年限:</string>
+    <string name="i_contactaddr">通讯地址:</string>
+    <string name="i_schoolpost">通讯地址邮编:</string>
+    <string name="btn_cancel">取消:</string>
+    <string name="btn_save">保存:</string>
+    <string name="updateTitle">修改信息</string>
+    <string name="more_information">查看详情</string>
+
+    <!--成绩信息-->
+    <string name="g_semester">学期:</string>
+    <string name="g_score">成绩:</string>
+    <string name="g_gpa">绩点:</string>
+    <string name="g_supplymentary">补考/重修成绩:</string>
+    <string name="g_code">课程代码:</string>
+    <string name="g_sum">已修学分:</string>
+    <string name="g_get">已获学分:</string>
+
+    <!--老师列表-->
+    <string name="btn_enter">进入</string>
+    <string name="t_title">教师团队</string>
+
+    <!--老师页面-->
+    <string name="course">开设课程</string>
+    <string name="classtime">上课时间</string>
+    <string name="worked">已开设的课程</string>
+
+    <!--专业-->
+    <string name="p_feature">专业特色</string>
+    <string name="p_intro">专业介绍</string>
+    <string name="p_core">核心课程</string>
+
+    <!--登录-->
+    <string name="accout">请输入学号</string>
+    <string name="password">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="remember_me">免登录</string>
+
+    <!--修改密码-->
+    <string name="affirm_account">请输入账号</string>
+    <string name="old_password">输入旧密码</string>
+    <string name="new_password">输入新密码</string>
+    <string name="repeat_password">确定新密码</string>
+    <string name="determined">确定</string>
+
+
+</resources>

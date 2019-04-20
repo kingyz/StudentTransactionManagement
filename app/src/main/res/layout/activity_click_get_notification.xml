@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ClickGetNotification">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/click_get_notification_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:title="@string/nav_notification" />
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/click_get_notification_textview"
+        style="@style/NotificationContent" />
+
+    <TextView
+        android:id="@+id/click_get_notification_date"
+        style="@style/NotificationDate"
+
+        />
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/click_get_notification_fab"
+            style="@style/FloatingActionButton"
+            android:src="@drawable/delete" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</LinearLayout>

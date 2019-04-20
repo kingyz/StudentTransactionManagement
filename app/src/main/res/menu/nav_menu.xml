@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_information"
+            android:icon="@drawable/information"
+            android:title="@string/nav_information" />
+        <item
+            android:id="@+id/nav_files"
+            android:icon="@drawable/files"
+            android:title="@string/nav_files" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/notification"
+            android:title="@string/nav_notification" />
+
+    </group>
+
+    <item android:title="@string/nav_other">
+        <menu>
+            <item
+                android:id="@+id/nav_update"
+                android:icon="@drawable/safe"
+                android:title="@string/nav_update" />
+
+            <item
+                android:id="@+id/nav_quit"
+                android:icon="@drawable/quit"
+                android:title="@string/nav_quit" />
+        </menu>
+    </item>
+</menu>
